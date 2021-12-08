@@ -5,34 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b12df852c2.js" crossorigin="anonymous"></script>
     <title>home CMS</title>
 </head>
 <body>
     <header>  
         <div class="header">
-            <img src="" alt="">
-            <ul>
-                <li> <a href="index.html">Home</a> </li>
-                <li> <a href="explore.html">News</a> </li>    
-                <li> <a href="visit.html">Visit</a> </li>
-                <li> <a href="exhibiton.html">Exhibitions</a> </li>    
-            </ul>
+            <img src="./media/Group 11.svg" alt="logo">
+            <i class="fas fa-search" id="search"></i>
+            <label for="hamburger">
+                <i class="fas fa-bars" id="buggi"></i>
+            </label>
+            <input type="checkbox" id="hamburger">
+            <nav>
+                <ul class="hamenu">
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="explore.html">News</a> </li>    
+                    <li> <a href="visit.html">Visit</a> </li>
+                    <li> <a href="exhibiton.html">Exhibitions</a> </li>    
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
-        <div class="hero-image" style="background-image:url(./media/exhibition-1863344_1920.jpg);">
+        <div>
+            <img src="./media/exhibition-1863344_1920.jpg" alt="museum" class="hero-image">
             <h1>Community Science Museum</h1>
         </div>
         <section>
-            <div>
+            <div class="black-back">
                 <img src="./media/roberto-nickson-396152.jpg" alt="museum at the night">
-                <h1>Sleep whit dinosaurs</h1>
+                <h2>Sleep Whit Dinosaurs</h2>
                 <p>And all the other exciting displays we got. come whit friends and family for an exciting night here at the community science museum</p>
                 <button>more information</button>
             </div>
-            <div>
+            <div class="white-back">
                 <img src="./media/heart-2607178_1920.jpg" alt="a fake heart that illustrate a real one">
-                <h1>Exhibiton spaces</h1>
+                <h2>Exhibiton spaces</h2>
                 <p>Explore our numerous exhibiton about robots and how they work, and how we humans become who we are because evalution and many more fun and interactive exhibitons</p>
                 <button>Find out more..</button>
             </div>

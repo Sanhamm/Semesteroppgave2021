@@ -1,27 +1,122 @@
 * {
     margin: 0%;
     margin: auto;
-}
-
-main .hero-image {
-    height: 686px;
-    width: 100%;
-}
-
-
-main .hero-image h1 {
-    width: 0px;
-    position: absolute;
-    left: 50px;
-    top: 130px;
-}
-
-header,
-section,
-footer,
-aside {
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
+.hero-image  {
+    height: 486px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+main h1 {
+    width: 30px;
+    margin-left: 30px;
+    top: -450px;
+    position: relative;
+}
+
+header {
+    background-color: #F4F4F4;
+    border: 1px solid rgba(0, 0, 0, 0.55);
+}
+
+.header img {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+header #buggi {
+    font-size: 36px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+#search {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    font-size: 36px;
+}
+
+nav .hamenu {
+    display: none;
+}
+
+#hamburger {
+    display: none;
+}
+
+
+#hamburger:checked ~ nav .hamenu {
+    display: block;
+}
+
+nav .hamenu li {
+    background-color: #F4F4F4;
+    padding: 5px;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+
+nav .hamenu li a {
+    text-decoration: none;
+    color: black;
+    background-color: #F4F4F4;
+}
+
+header .hamenu {
+    list-style-type: none;
+    background-color: #F4F4F4;
+}
+
+.black-back {
+    background: #262626;
+    height: 420px;
+    margin: 0%;
+}
+
+.black-back img {
+    width: 175px;
+    height: 139px;
+    border: 3px solid #000000;
+    position: relative;
+    box-sizing: border-box;
+    top: 39px; 
+    left: 50px;
+}
+
+.black-back h2 {
+    position: relative;
+    top: 69px;
+    left: 50px;
+    color: white;
+
+}
+
+.black-back p {
+    position: relative;
+    top: 85px;
+    left: -64px;
+    width: 290px;
+    color: white;
+}
+
+.black-back button {
+    position: relative;
+    top: 120px;
+    left: 50px;
+    background-color: #9D4B00;
+    padding: 5px;
+    width: 160px;
+    color: white;
+}
+
+main div {
+
+}
