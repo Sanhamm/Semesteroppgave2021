@@ -92,20 +92,20 @@ header .hamenu {
     position: relative;
     box-sizing: border-box;
     top: 39px; 
-    left: 50px;
+    left: 35px;
 }
 
 .black-back h2 {
     color: white;
     margin-top: 55px;
-    margin-left: 50px;
+    margin-left: 35px;
 }
 
 .black-back p {
     margin-top: 25px;
     width: 290px;
     color: white;
-    margin-left: 55PX;
+    margin-left: 35PX;
     max-width: 78%;
 }
 
@@ -121,11 +121,11 @@ button {
 .black-back button {
     background-color: #9D4B00;
     margin-top: 30px;
-    margin-left: 55px;
+    margin-left: 35px;
 }
 
 .white-back img {
-    width: 78%;
+    width: 85%;
     display: block; 
     margin-left: auto;
     margin-right: auto;
@@ -135,13 +135,13 @@ button {
 .white-back h2,
 .white-back p {
     margin-top: 20px;
-    margin-left: 55px;
+    margin-left: 35px;
     max-width: 78%;
 }
 
 .white-back button {
     background-color: black;
-    margin-left: 55PX;
+    margin-left: 35PX;
 
 }
 
@@ -153,7 +153,7 @@ button {
 }
 
 .visit h2 {
-    margin-left: 55px;
+    margin-left: 35px;
     margin-top: 20px;
     padding-top: 20px;
 }
@@ -162,8 +162,9 @@ button {
     float: left;
     display: block;
     padding-top: 10px;
-    margin-left: 55px;
+    margin-left: 35px;
     max-width: 180px;
+    padding-top: 20px;
 }
 
 .visit img {
@@ -171,13 +172,13 @@ button {
     float: right;
     width: 165px;
     position: relative;
-    margin-right: 55px;
+    margin-right: 35px;
     border: 3px solid black;
 }
  .visit button {
     background-color: black;
     position: absolute;
-    left: 55px;
+    left: 35px;
     bottom: 20px;
  }
 
@@ -193,7 +194,7 @@ button {
 }
 
 .support h2 {
-    margin-left: 55px;
+    margin-left: 35px;
     padding-bottom: 30px;
 }
 
@@ -201,7 +202,7 @@ button {
     display: block;
     float: left;
     max-width: 220px;
-    margin-left: 55px;
+    margin-left: 35px;
 }
 .support img {
     width: 50%;
@@ -209,12 +210,12 @@ button {
     float: right;
     max-width: 135px;
     position: relative;
-    margin-right: 55px;
+    margin-right: 35px;
     border: 3px solid black;
 }
 
 .support button{
-    margin-left: 55px;
+    margin-left: 35px;
     background-color: black;
     position: absolute;
     left: 0px;
