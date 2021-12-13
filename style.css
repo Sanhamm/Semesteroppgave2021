@@ -136,6 +136,7 @@ button {
 .white-back p {
     margin-top: 20px;
     margin-left: 55px;
+    max-width: 78%;
 }
 
 .white-back button {
