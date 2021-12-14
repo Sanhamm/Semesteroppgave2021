@@ -4,10 +4,15 @@
     max-width: 1200px;
 }
 
+h1, h2, h3, p, a, button {
+    font-family: 'Abel', Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .hero-image  {
     height: 490px;
     width: 100%;
     object-fit: cover;
+    margin-bottom: 0px;
 }
 
 main div {
@@ -92,20 +97,20 @@ header .hamenu {
     position: relative;
     box-sizing: border-box;
     top: 39px; 
-    left: 35px;
+    left: 7.5%;
 }
 
 .black-back h2 {
     color: white;
     margin-top: 55px;
-    margin-left: 35px;
+    margin-left: 7.5%;
 }
 
 .black-back p {
     margin-top: 25px;
     width: 290px;
     color: white;
-    margin-left: 35PX;
+    margin-left: 7.5%;
     max-width: 78%;
 }
 
@@ -121,7 +126,7 @@ button {
 .black-back button {
     background-color: #9D4B00;
     margin-top: 30px;
-    margin-left: 35px;
+    margin-left: 7.5%;
 }
 
 .white-back img {
@@ -135,13 +140,13 @@ button {
 .white-back h2,
 .white-back p {
     margin-top: 20px;
-    margin-left: 35px;
+    margin-left: 7.5%;
     max-width: 78%;
 }
 
 .white-back button {
     background-color: black;
-    margin-left: 35PX;
+    margin-left: 7.5%;
 
 }
 
@@ -153,7 +158,7 @@ button {
 }
 
 .visit h2 {
-    margin-left: 35px;
+    margin-left: 7.5%;
     margin-top: 20px;
     padding-top: 20px;
 }
@@ -162,7 +167,7 @@ button {
     float: left;
     display: block;
     padding-top: 10px;
-    margin-left: 35px;
+    margin-left: 7.5%;
     width: 43%;
     padding-top: 20px;
 }
@@ -172,13 +177,13 @@ button {
     float: right;
     width: 23%;
     position: relative;
-    margin-right: 35px;
+    margin-right: 7.5%;
     border: 3px solid black;
 }
  .visit button {
     background-color: black;
     position: absolute;
-    left: 35px;
+    left: 7.5%;
     bottom: 20px;
  }
 
@@ -194,7 +199,7 @@ button {
 }
 
 .support h2 {
-    margin-left: 35px;
+    margin-left: 7.5%;
     padding-bottom: 30px;
 }
 
@@ -202,19 +207,19 @@ button {
     display: block;
     float: left;
     width: 43%;
-    margin-left: 35px;
+    margin-left: 7.5%;
 }
 .support img {
     width: 23%;
     display: block;
     float: right;
     position: relative;
-    margin-right: 35px;
+    margin-right: 7.5%;
     border: 3px solid black;
 }
 
 .support button{
-    margin-left: 35px;
+    margin-left: 7.5%;
     background-color: black;
     position: absolute;
     left: 0px;
@@ -232,13 +237,13 @@ main .explore-main {
 }
 
 main .explore-main h1{
-    margin-left: 35px;
+    margin-left: 7.5%;
     padding-top: 30px;
     padding-bottom: 40px;
 } 
 
 main .explore-main p {
-    margin-left: 35px;
+    margin-left: 7.5%;
     padding-bottom: 40px;
     width: 70%;
 }
@@ -246,13 +251,13 @@ main .explore-main p {
 main .explore-main button {
     background-color: #9D4B00;
     margin-bottom: 40px;
-    margin-left: 35px;
+    margin-left: 7.5%;
 }
 
 aside .explore-white img {
     width: 85%;
     display: block; 
-    margin-left: 35px;
+    margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     height: ;
@@ -261,19 +266,19 @@ aside .explore-white img {
 aside .explore-white h2 {
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-left: 35px;
+    margin-left: 7.5%;
 }
 
 
 aside .explore-white p {
-    margin-left: 35px;
+    margin-left: 7.5%;
     width: 80%;
     margin-bottom: 20px;
 } 
 
 
 aside .explore-white button {
-    margin-left: 35px;
+    margin-left: 7.5%;
     background-color: black ;
     margin-bottom: 50px;
 }
@@ -281,30 +286,32 @@ aside .explore-white button {
 aside .explore-orange {
     background-color: rgba(157, 75, 0, 0.7);
     color: white;
+    padding-top: 30px;
 }
 
 aside .explore-orange img  {
     width: 85%;
-    margin-left: 35px;
+    margin-left: auto;
     margin-right: auto;
     border: 3px solid black;
     margin-top: 50px;
+    display: block;
 }
 
 aside .explore-orange h2 {
-    margin-left: 35px;
+    margin-left: 7.5%;
     margin-top: 40px;
     margin-bottom: 30px;
 }
 
 aside .explore-orange p {
-    margin-left: 35px;
+    margin-left: 7.5%;
     width: 80%;
     margin-bottom: 20px;
 }
 
 aside .explore-orange button {
-    margin-left: 35px;
+    margin-left: 7.5%;
     background-color: black;
     margin-bottom: 50px;
 }
@@ -330,14 +337,14 @@ main .visit-orange h2 {
 }
 
 main .visit-orange h2, h3, p {
-    margin-left: 35px;
+    margin-left: 7.5%;
     margin-bottom: 25px;
     margin-right: auto;
     width: 80%;
 }
 
 main .visit-orange button {
-    margin-left: 35px;
+    margin-left: 7.5%;
     margin-bottom: 30px;
     background-color: black;
 }
@@ -362,13 +369,13 @@ main .visit-orange h2, h3 {
 
 
 .main-exhibiton h2 {
-    margin-left: 35px;
+    margin-left: 7.5%;
     padding-bottom: 30px;
     padding-top: 30px;
 }
 
 .main-exhibiton button {
-    margin-left: 35px;
+    margin-left: 7.5%;
     background-color: black;
     margin-bottom: 50px;
 }
@@ -395,21 +402,21 @@ footer{
 
 footer h3 {
     padding-top: 20px;
-    margin-left: 35px;
+    margin-left: 7.5%;
 }
 
 footer p {
     display: block;
     float: left;
     width: 43%;
-    margin-left: 35px;
+    margin-left: 7.5%;
     padding-top: 20px;
 }
  footer .location {
     display: block;
     float: right;
     width: 35%;
-    margin-right: 35px;
+    margin-right: 7.5%;
  }
 
  footer button {
@@ -427,3 +434,156 @@ footer p {
     margin-left: 70px;
  }
 
+ @media only screen and (min-width: 860px) {
+     #buggi {
+         display: none;
+     }
+
+     nav .hamenu {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .sideomside {
+        display: flex;
+    }
+
+
+
+    section .black-back {
+        padding-bottom: 90px;
+    }
+
+    .black-back,
+    .white-back {
+        width: 50%;
+        margin-top:0;
+        height: 600px;
+        margin-bottom: 0;
+
+    }
+
+    .black-back img,
+    .white-back img {
+        width: 359px;
+        height: 249px;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+        justify-content: space-around;
+        margin-left: 20px;
+        
+    }
+
+    .black-back img {
+        margin-top: 20px;
+    }
+
+    .white-back img {
+        margin-left: 55px;
+    }
+
+    .black-back h2,
+    .white-back h2 {
+        margin-left: 55px;
+    }
+
+    .black-back p,
+    .white-back p {
+        margin-left: 55px;
+    }
+
+    .black-back button,
+    .white-back button {
+        margin-left: 55px;
+    }
+
+    .visit h2 {
+        margin-left: 55px;
+        font-size: 2rem;
+    }
+
+    .visit p {
+        width: 18%;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        margin-left: 55px;
+    }
+
+    .visit {
+        padding-bottom: 26px;
+        height: 350px;
+        padding-top: 20px;
+    }
+
+    .visit img {
+        margin-right: 120px;
+        width: 386px;
+    }
+
+    .visit button {
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+
+    .support {
+        padding-top: 100px;
+    }
+
+    .support h2 {
+        font-size: 2rem;
+        margin-left: 55px;
+    }
+
+    .support img {
+        width: 277px;
+        bottom: 130px;
+        right: 120px;
+    }
+
+    .support p {
+        font-size: 1.2rem;
+        margin-left: 55px;   
+    }
+    
+    .support button {
+        margin-left: 55px;
+    }
+ 
+   
+    .explore-main img { 
+        object-fit: cover ;
+    }
+    
+    .explore-main p {
+        font-size: 1.5rem;
+    }
+
+    .explore-white img {
+        
+    }
+    
+    aside .explore-orange {
+        padding-top: 45px;
+    }
+
+    aside .explore-orange img {
+        height: 500px;
+        margin-top: 3px;
+        
+    }
+    
+
+    footer .location {
+    }
+
+    .foot-flex {
+
+    }
+
+    footer p {
+      
+    }
+ }
+
+ 
