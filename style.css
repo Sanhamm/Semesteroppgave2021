@@ -397,7 +397,7 @@ main .visit-orange h2, h3 {
 footer{
     background-color: #262626 ;
     color: white;
-    height: 400px;
+    height: 580px;
 }
 
 footer h3 {
@@ -415,7 +415,7 @@ footer p {
  footer .location {
     display: block;
     float: right;
-    width: 35%;
+    width: 140px;
     margin-right: 7.5%;
  }
 
@@ -424,14 +424,20 @@ footer p {
  }
 
  footer .foot-flex {
-    display: flex;
-    position: relative;
-    right: 190px;
-    top: 100px;
+    display: block;
+    width: 100px;
+    padding-bottom: 0px;
  }
 
  footer .foot-some {
-    margin-left: 70px;
+     position: relative;
+     left: 100px;
+     top: -188px;
+ }
+
+ footer .foot-info {
+     position: relative;
+     right: 150px;
  }
 
  @media only screen and (min-width: 860px) {
@@ -562,28 +568,22 @@ footer p {
     .explore-white img {
         
     }
-    
+
+    aside .explore-orange h2 {
+        padding-top: 60px ;
+    }
+
     aside .explore-orange {
         padding-top: 45px;
     }
 
-    aside .explore-orange img {
-        height: 500px;
-        margin-top: 3px;
+    aside .explore-orange {
+        height: 900px;
+        margin-top: 0px;
         
-    }
+    }   
+
     
-
-    footer .location {
-    }
-
-    .foot-flex {
-
-    }
-
-    footer p {
-      
-    }
+    
  }
-
  
