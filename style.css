@@ -715,6 +715,10 @@ footer button {
         border: 1px solid white;
     }
 
+    p {
+        font-size: 1.3rem;
+    }
+
     .foot-info,
     .foot-some {
         width: 200px;
